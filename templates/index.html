@@ -29,12 +29,12 @@
         <div class="retangulo" style=" background-color: blue; ">
         
         
-            <img src="static/images/terla.png" alt="" class="tela">
+            <img src="static/images/terla.png" alt="" class="tela display">
 
             <div class="pontos tela">{{pontoazul}} </div>
 
         <form method="POST" action="{{url_for('inicio', pontoazul = pontoazul , pontored = pontored)}}">
-            <input type="submit" name="maisazul" class="btn  blue btnp btn-warning btn-sm" value="+ponto">
+            <input type="submit" name="maisazul" class="btn  blue  btn-warning btn-sm" value="+ponto">
 
 
                 <input class="btnp btn btn-primary btn-sm" type="submit" name="menosazul" value="-ponto">
@@ -52,6 +52,8 @@
 
         <img class="quiz" src="static/images/quiz3.png" alt="">
 
+         <img  class="safe"src="static/images/safe2.png" alt="">
+
         
     </div>
 
@@ -64,16 +66,16 @@
 
         <div class="retangulo" style=" background-color: red;">
         
-            <img src="static/images/terla.png" alt="" class="tela">
+            <img src="static/images/terla.png" alt="" class="tela display">
 
             
             <div class="pontos tela">{{pontored}} </div>
             
              <form method="POST" action="{{url_for('inicio', pontoazul = pontoazul , pontored = pontored)}}">
-            <input name="maisred" type="submit" class="btnp blue btn btn-warning btn-sm" value="+ponto">
+            <input name="maisred" type="submit" class=" blue btn btn-warning btn-sm" value="+ponto">
 
 
-                <input name="menosred" class="btnp  btn btn-primary btn-sm" type="submit" value="-ponto">
+                <input name="menosred" class="btnp   btn btn-primary btn-sm" type="submit" value="-ponto">
                 </form>
 
 
@@ -101,7 +103,7 @@
 
         
         
-        <img  class=" rodape2" src="static/images/safe2.png" alt="">
+
         
         
         <img  class="rodape1" src="static/images/cipa.png" alt="">
