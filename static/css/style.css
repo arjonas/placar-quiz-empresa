@@ -1,0 +1,149 @@
+body{
+
+
+    background-color:#FDFCE9 ;
+}
+
+
+
+
+.container{
+
+
+    margin-top: 6%;
+    align-items: center;
+
+}
+
+
+
+.retangulo{
+    align-items: center;
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+    border-radius: 1rem;
+    position:relative;
+
+}
+
+
+
+.center{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+
+.taboca{
+    margin-bottom: 6%;
+    margin-left: 14%;
+    width: 68%;
+
+}
+
+.quiz{
+
+   opacity: 60%;
+}
+
+
+
+.tela{
+    
+    right: -17.5%;
+    top: 30%;
+    width: 134%;
+    position: absolute;
+ 
+  
+   
+
+
+}
+
+.pontos{
+
+    color: #25DA9E;
+    font-size: 5rem;
+    font-family:abys;
+   
+}
+
+
+.footer{
+    
+    font-family: sans-serif;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.rodape{
+
+    display: flex;
+     height: 9%;
+    width: 9%;
+    margin-top:5%;
+
+
+}
+
+.rodape1{
+
+    height: 11%;
+    width: 11%;
+    margin-top:3%;
+
+}
+
+.btnp{
+
+    margin-top: 200%;
+}
+
+.btnr{
+
+    margin-top: 50%;
+}
+
+h2{
+
+
+    margin-top:6%;
+}
+
+.rodape2{
+
+   height: 16%;
+    width: 16%;
+
+    margin-bottom:89%;
+}
+
+@media (max-width:1200px){
+
+   .mais{
+   position:absolute;
+   top:60%;
+   mergin-top: 800%;
+   opacity:10%
+
+   }
+
+   .blue{
+
+    position:relative;
+   margin-top:250%;
+   }
+
+
+
+
+}
